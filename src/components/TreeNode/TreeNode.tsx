@@ -1,5 +1,5 @@
 import React, { useRef, useEffect, useState } from 'react';
-import { HierarchyNode, NodeType } from '../../types';
+import { HierarchyNode } from '../../types';
 import { getNodeTheme, defaultTreeTheme, TreeTheme } from '../../theme/treeTheme';
 import './TreeNode.css';
 
