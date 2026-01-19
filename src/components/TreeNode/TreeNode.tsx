@@ -183,7 +183,7 @@ const TreeNode: React.FC<TreeNodeProps> = ({
     } else {
       setLinePaths([]);
     }
-  }, [hasChildren, isExpanded, node.children, expandedSet]);
+  }, [hasChildren, isExpanded, node.children, expandedSet, theme.cornerRadius]);
 
   return (
     <div ref={containerRef} className="tree-node-wrapper">
